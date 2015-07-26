@@ -1,0 +1,46 @@
+
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+
+p {
+    background-color: rgb(255,0,255);
+}
+<br> <br> 
+<font size="7" color="#FF4000">Welcome to DUAFI! </font>
+<p>
+
+<br><br>
+<b>
+DUAFI is a voluntary, nonprofit and nonpolitical forum organized exclusively for cultural, educational, and charitable purposes.
+</b>
+<br>
+<br>
+The overall <b> objectives </b> of DUAFI are:
+<br>
+<br>
+<i>
+A. To work for the improvement of fellowship among the graduates of Dhaka University campus graduates living in Greater Washington DC metro area.
+<br>
+B. To organize cultural programs, reunion programs for the graduates and immediate family members of Dhaka University campus graduates.
+<br>
+C. To conduct seminars, workshops and educational programs independently and/or in conjunction with national and international organizations.
+<br>
+D. To extend assistance to Dhaka University students in their academic endeavors either through financial help or material support.
+</i>
+<br>    
+    
+</p>
+
+{% endblocktrans %}
+{% endblock %}
+

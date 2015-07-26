@@ -1,0 +1,29 @@
+
+DEBUG = True
+
+# Make these unique, and don't share it with anybody.
+SECRET_KEY = "zcon4*uzzbj7yj0u79o04^zh$v*ezj#&twjeswvx+(s@orh!%*"
+NEVERCACHE_KEY = "oz*c3d1!lu3f64(0wr!2q_3fr#x68&929h-k0u-tswt$r@4o++"
+
+
+
+
+DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'duafi',
+            'USER': 'postgres',
+            'PASSWORD': 'Ayon_789',
+            'HOST': '',
+            'PORT': '',
+        }
+}
+
+###################
+# DEPLOY SETTINGS #
+###################
+
+# Domains for public site
+#ALLOWED_HOSTS = ["localhost"]
+
+
